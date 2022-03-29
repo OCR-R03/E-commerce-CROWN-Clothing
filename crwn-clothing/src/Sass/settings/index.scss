@@ -5,7 +5,6 @@
 */
 
 @import './mixins.scss';
-
 @import './variables.scss';
 
 /*
@@ -16,6 +15,7 @@
 
 @import '../components/category-item.styles.scss';
 @import '../components/directory.styles.scss';
+@import '../components/navigation.styles.scss';
 
 
 /*
@@ -27,4 +27,14 @@
 * {
     font-family: 'helvetica';
     box-sizing: border-box;
+    font-family: $openSans;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: black;
 }

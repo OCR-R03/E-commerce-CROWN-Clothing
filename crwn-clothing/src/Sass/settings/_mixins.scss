@@ -9,6 +9,12 @@
     flex-wrap: wrap;
 }
 
+@mixin flexEnd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 @mixin W-full {
     width: 100%;
 }
