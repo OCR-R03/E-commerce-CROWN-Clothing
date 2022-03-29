@@ -1,0 +1,5 @@
+.directory-container {
+    @include flexWrap;
+    @include W-full;
+    justify-content: space-between;   
+}
