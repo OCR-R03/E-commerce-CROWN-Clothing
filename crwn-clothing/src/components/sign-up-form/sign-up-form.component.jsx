@@ -1,0 +1,6 @@
+const SignUpForm = () => {
+
+    return (
+        
+    )
+}
