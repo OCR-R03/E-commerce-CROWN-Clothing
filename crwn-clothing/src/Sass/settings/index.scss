@@ -23,6 +23,8 @@
 @import '../components/authentication.styles.scss';
 @import '../components/product-card.styles.scss';
 @import '../components/shop.styles.scss';
+@import '../components/cart-icon.styles.scss';
+@import '../components/cart-dropdown.styles.scss';
 
 
 /*
@@ -40,6 +42,7 @@
 
 body {
     margin: 0;
+    padding: 20px 40px;
 }
 
 a {
