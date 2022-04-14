@@ -20,9 +20,10 @@
       height: 340px;
       display: flex;
       flex-direction: column;
-      overflow: hidden;
+      overflow-y: scroll;
+      scrollbar-width: thin;
     }
-  
+
     button {
       margin-top: auto;
     }
